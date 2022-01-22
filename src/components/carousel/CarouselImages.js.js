@@ -6,37 +6,29 @@ import "animate.css/animate.min.css";
 import { GoProject } from 'react-icons/go'
 import { FaArrowCircleDown } from 'react-icons/fa'
 import Hello from '../images/Hello.jpg'
-import Pencil from '../images/Pencil.jpg'
-import laptop1 from '../images/laptop1.jpg'
+import ColumbusAtNight from '../images/ColumbusAtNight.jpg'
 
 class CarouselImages extends Component {
     render() {
         return (
             <div className={classes.carousel_container} id="start">
-                {/* <ScrollAnimation offset="0" animateIn="fadeInLeft" duration='2.4' animateOnce="true" initiallyVisible ={true}> */}
                 <Carousel className={classes.carousel} dynamicHeight infiniteLoop={true} interval={6000} useKeyboardArrows={true} transitionTime={1700} emulateTouch showArrows={false} autoPlay showStatus={false} showThumbs={false} >
                     <div className={classes.image_container} >
                         <img className={classes.image} src={Hello} alt="myImage" />
                         <div className={classes.h1}>
-                            <h1 >I'm Sachin</h1>
-                            <a href="https://drive.google.com/file/d/1XwQYRl06QtuNPT8v4fHkbajk1ll9LTbi/view?usp=sharing" rel="opener noreferrer" target="_blank">VIEW CV   <FaArrowCircleDown /></a>
+                            <h1 >I'm Ryan</h1>
+                            <a href="https://www.linkedin.com/in/ryank1979/detail/overlay-view/urn:li:fsd_profileTreasuryMedia:(ACoAACQSEdYBPSh8pqvDpIEpLNd_rKt0L0-g-_8,1556631220818)/" rel="opener noreferrer" target="_blank">VIEW CV <FaArrowCircleDown /></a>
                         </div>
                     </div>
                     <div className={classes.image_container}>
-                        <img className={classes.image} src={Pencil} alt="myImage" />
+                        <img className={classes.image} src={ColumbusAtNight} alt="myImage" />
                         <div className={classes.h2}>
-                            <h1> I love building</h1>
-                            <h1>THINGS!!</h1>
-                            <a href="https://github.com/mittalsam98" rel="opener noreferrer" target="_blank">VIEW PROJECTS   <GoProject /></a>
+                            <h1> Creating things is</h1>
+                            <h1>LIFE!!</h1>
+                            <a href="https://github.com/RyanK1979" rel="opener noreferrer" target="_blank">VIEW PROJECTS   <GoProject /></a>
                         </div>
                     </div>
-                    {/* <div className={classes.image_container}>
-                    <img className={classes.image} src={laptop1} alt="myImage"/>
-                    <div  className={classes.h1}> 
-                    </div>
-                </div> */}
                 </Carousel>
-                {/* </ScrollAnimation> */}
             </div>
         )
     }

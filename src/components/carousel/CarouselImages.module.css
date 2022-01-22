@@ -27,11 +27,11 @@
     top:-470px;
     left:-20px;
     text-align: right;
-    color:black;
+    color:whitesmoke;
   }
 
   .h1 a{
-    color:rgba(255, 255,255, 0.8);
+    color:rgba(15, 14, 14, 0.8);
     width: 170px;
     margin:50px;
     font-size: 1.1rem;
@@ -42,14 +42,14 @@
     position: relative;
     top:20px;
     left:-7px;
-    color:rgba(255, 255,255, 0.8);
+    color:rgba(12, 9, 9, 0.8);
     padding: 11px 24px;
     box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
     border-radius:22px;
     background-image:linear-gradient(to left,rgba(75,19,79,0.8) ,rgba(201,75,75,0.6));
   }
   .h2 a{
-    color:rgba(255, 255,255, 0.8);
+    color:rgba(12, 10, 10, 0.8);
     width: 170px;
     margin:50px;
     font-size: 1.1rem;
@@ -60,7 +60,7 @@
     position: relative;
     top:20px;
     left:-7px;
-    color:rgba(255, 255,255, 0.8);
+    color:rgba(7, 6, 6, 0.8);
     padding: 11px 24px;
     box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
     border-radius:22px;
@@ -69,7 +69,7 @@
 
   @keyframes text{
     from{transform: translateY(20px);
-    opacity: 0.2;}
+    opacity: 0.4;}
     to{opacity: 1;}
   }
   

@@ -11,8 +11,8 @@ class About extends Component {
                     <span className={classes.head}>ABOUT ME</span>
                     <h2 className={classes.heading}>Who Am I?</h2>
                     <div className={classes.About}>
-                        <p> My name is <b>SACHIN MITTAL</b> and I am currently working as Software Developer Engineer at <a target="_blank" href="https://www.springworks.in/"><b>Springworks</b></a>. I completed my degree in Bachelor of Technology in Computer Science and Engineering from Sant Longowal Institute of Engineering and Technology. I am much interested in developing new things which excite me a lot. :)  </p>
-                        <p className={classes.br}>I love exploring new technologies and being a practitioner, I like to stay on top of latest trends. I try to leave every line of code I write more readable, accessible, and modular.
+                        <p> My name is <b>Ryan Kuhn</b> and I am currently working as Software Developer Engineer at <a target="_blank" href="https://www.jpmorganchase.com/"><b>J.P. Morgan Chase</b></a>. I originally worked as a locomotive engineer, I then transitioned to tech through a bootcamp called We Can Code It based out of Columbus, Ohio. This was my first love, and I really enjoy the learning new technologies!  </p>
+                        <p className={classes.br}>I love learning the newest tech, which is always a challenge when you have a three year old running around the house!
                         </p>
                     </div>
                 </ScrollAnimation>

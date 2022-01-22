@@ -4,7 +4,7 @@
     height:100vh;
     /* margin-top: -50px; */
     width:100%;
-    background-color:#f2f3f7;
+    background-color:#0a0a0ae8;
     overflow-y: scroll;
      text-align: center;
 }
@@ -18,8 +18,8 @@
 
 .h1_links{
   text-decoration: none;
-  font-family: 'Aclonica', sans-serif;
-  color:#000;
+  font-family: 'Comfortaa', sans-serif;
+  color:rgb(231, 218, 218);
   font-size:32px;
 }
 .sidebar > p {
@@ -45,7 +45,7 @@
   text-decoration: none;
   /* font-family: 'Quicksand', sans-serif; */
   font-family: 'Comfortaa', cursive;
-  color:#000;
+  color:rgb(247, 236, 236);
   font-size: larger;
   line-height: 1.4rem;
 }
@@ -58,16 +58,16 @@
 }
 .fa-lg{
   text-decoration: none;
-  color:red;
+  color:rgba(196, 195, 212, 0.89);
 }
 
 .links:hover{
  /* color:rgb(121, 189, 252); */
- color:rgb(121, 189, 252);
+ color:rgb(16, 93, 170);
  text-decoration: underline;
 }
 .fas:hover{
-  color:rgb(41, 152, 255);
+  color:rgb(21, 119, 199);
   text-decoration: underline;
  }
  ul{
